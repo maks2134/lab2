@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ComputingMachine">
+    <Position X="5" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAAAAQAKAACACAAAAAACBAAAAABAIgBABIAAA=</HashCode>
+      <FileName>ComputingMachine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Laptop">
+    <Position X="9.75" Y="9.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAIgAAAAAAQIAAAACBCAAgABRAwAAAAAgA=</HashCode>
+      <FileName>Laptop.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Monoblock">
+    <Position X="2.25" Y="9.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAEAAIAACAAAAAAAAAAAAAAAECBCAAAgBAAgAAAAAAE=</HashCode>
+      <FileName>Monoblock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PortableComputer">
+    <Position X="8" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAQAAAABAACBgAAAABYAwCQAAQAQ=</HashCode>
+      <FileName>PortableComputer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StationaryComputer">
+    <Position X="2.25" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgACIAAAIAAAAgAAAAIACBAgAAABCggAgAAAAA=</HashCode>
+      <FileName>StationaryComputer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tablet">
+    <Position X="5.75" Y="9.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAABAAAAAQgAAACBAAAAABEAgAABgBAA=</HashCode>
+      <FileName>Tablet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stack&lt;T&gt;">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Stack&lt;T&gt;::Node">
+        <TypeIdentifier>
+          <NewMemberFileName>Stack.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Class Name="Stack&lt;T&gt;::Iterator">
+        <TypeIdentifier>
+          <NewMemberFileName>Stack.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQEEAAiAAAAAAAACIAAAIgQgAACAABACBAIAAAAQBA=</HashCode>
+      <FileName>Stack.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Menu">
+    <Position X="11.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GCAAAoAgABAIAQIAIBBAAAAAEBAoACAghGAxEBCQQgg=</HashCode>
+      <FileName>Menu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExceptionBase" Collapsed="true">
+    <Position X="18.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>ExceptionBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileException">
+    <Position X="17.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAABAAEAAAAAAAAgAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>FileException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputException">
+    <Position X="20" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAQAEAAAAAEDEQAEBBAAAACAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>InputException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StackException">
+    <Position X="22" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAEAAAIgABAAAAAAAQAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>StackException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,56 @@
+﻿  Algorithms.cpp
+  main.cpp
+C:\Users\maks2\Downloads\Telegram Desktop\lab2_inheritance\lab2_inheritance\lab2_inheritance\Stack.h(51,42): warning C4101: e: неиспользованная локальная переменная
+  (компиляция исходного файла "main.cpp")
+      C:\Users\maks2\Downloads\Telegram Desktop\lab2_inheritance\lab2_inheritance\lab2_inheritance\Stack.h(51,42):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Users\maks2\Downloads\Telegram Desktop\lab2_inheritance\lab2_inheritance\lab2_inheritance\StackManager.h(18,29):
+          выполняется компиляция ссылки на экземпляр класс шаблон функции "Stack<ComputingMachine>"
+          C:\Users\maks2\Downloads\Telegram Desktop\lab2_inheritance\lab2_inheritance\lab2_inheritance\Stack.h(46,10):
+          во время компиляции функции-члена класс шаблон "void Stack<ComputingMachine>::pop(void)"
+              C:\Users\maks2\Downloads\Telegram Desktop\lab2_inheritance\lab2_inheritance\lab2_inheritance\Stack.h(26,16):
+              см. первую ссылку на Stack<ComputingMachine>::pop "Stack<ComputingMachine>::~Stack"
+              C:\Users\maks2\Downloads\Telegram Desktop\lab2_inheritance\lab2_inheritance\lab2_inheritance\StackManager.h(50,1):
+              см. первую ссылку на Stack<ComputingMachine>::~Stack "StackManager::StackManager"
+  
+  Menu.cpp
+  StackManager.cpp
+C:\Users\maks2\Downloads\Telegram Desktop\lab2_inheritance\lab2_inheritance\lab2_inheritance\Stack.h(66,42): warning C4101: e: неиспользованная локальная переменная
+  (компиляция исходного файла "StackManager.cpp")
+      C:\Users\maks2\Downloads\Telegram Desktop\lab2_inheritance\lab2_inheritance\lab2_inheritance\Stack.h(66,42):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Users\maks2\Downloads\Telegram Desktop\lab2_inheritance\lab2_inheritance\lab2_inheritance\StackManager.h(18,29):
+          выполняется компиляция ссылки на экземпляр класс шаблон функции "Stack<ComputingMachine>"
+          C:\Users\maks2\Downloads\Telegram Desktop\lab2_inheritance\lab2_inheritance\lab2_inheritance\Stack.h(62,7):
+          во время компиляции функции-члена класс шаблон "T Stack<T>::top(void) const"
+          with
+          [
+              T=ComputingMachine
+          ]
+              C:\Users\maks2\Downloads\Telegram Desktop\lab2_inheritance\lab2_inheritance\lab2_inheritance\StackManager.cpp(162,29):
+              см. первую ссылку на Stack<ComputingMachine>::top "StackManager::showTopComputingMachine"
+  
+C:\Users\maks2\Downloads\Telegram Desktop\lab2_inheritance\lab2_inheritance\lab2_inheritance\Stack.h(51,42): warning C4101: e: неиспользованная локальная переменная
+  (компиляция исходного файла "StackManager.cpp")
+      C:\Users\maks2\Downloads\Telegram Desktop\lab2_inheritance\lab2_inheritance\lab2_inheritance\Stack.h(51,42):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Users\maks2\Downloads\Telegram Desktop\lab2_inheritance\lab2_inheritance\lab2_inheritance\Stack.h(46,10):
+          во время компиляции функции-члена класс шаблон "void Stack<ComputingMachine>::pop(void)"
+              C:\Users\maks2\Downloads\Telegram Desktop\lab2_inheritance\lab2_inheritance\lab2_inheritance\StackManager.cpp(97,34):
+              см. первую ссылку на Stack<ComputingMachine>::pop "StackManager::removeComputingMachine"
+  
+C:\Users\maks2\Downloads\Telegram Desktop\lab2_inheritance\lab2_inheritance\lab2_inheritance\Stack.h(35,42): warning C4101: e: неиспользованная локальная переменная
+  (компиляция исходного файла "StackManager.cpp")
+      C:\Users\maks2\Downloads\Telegram Desktop\lab2_inheritance\lab2_inheritance\lab2_inheritance\Stack.h(35,42):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Users\maks2\Downloads\Telegram Desktop\lab2_inheritance\lab2_inheritance\lab2_inheritance\Stack.h(31,10):
+          во время компиляции функции-члена класс шаблон "void Stack<ComputingMachine>::push(const T &)"
+          with
+          [
+              T=ComputingMachine
+          ]
+              C:\Users\maks2\Downloads\Telegram Desktop\lab2_inheritance\lab2_inheritance\lab2_inheritance\StackManager.cpp(41,31):
+              см. первую ссылку на Stack<ComputingMachine>::push "StackManager::addComputingMachine"
+  
+  Создание кода...
+  lab2_inheritance.vcxproj -> C:\Users\maks2\Downloads\Telegram Desktop\lab2_inheritance\lab2_inheritance\x64\Debug\lab2_inheritance.exe

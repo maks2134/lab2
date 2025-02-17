@@ -1,0 +1,3 @@
+       4 GHz       32 GB     1024 GB     Yes      Yes     OLED
+     2.8 GHz        8 GB      256 GB      No       No      LCD
+     3.5 GHz       16 GB      512 GB     Yes      Yes      LED
